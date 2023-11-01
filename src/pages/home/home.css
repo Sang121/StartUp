@@ -71,9 +71,11 @@
 .a a img {
   height: 22px;
 }
-.a iframe {
+ iframe {
   border: none;
   border-radius: 15px;
+
+  width: 90%;
 }
 .righbar {
   width: 20%;

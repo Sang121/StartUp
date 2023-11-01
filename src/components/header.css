@@ -1,20 +1,22 @@
-.topHeader{
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-
+.topHeader {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
 }
-.rightHeader{
-    display: flex;
-    flex-direction: row;
-    margin-left: 200px;
-    float: left;
-
+.rightHeader {
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
 }
-.icon{
-    width: 20px;
+.icon {
+  width: 20px;
 }
-.avt{
-    width: 50px;
-    border-radius: 50px;
+.avt {
+  width: 50px;
+  border-radius: 50px;
+}
+.rightHeader .item {
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 10px;
 }

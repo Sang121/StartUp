@@ -3,6 +3,7 @@ import './header.css'
 import bellSvg from '../assets/bell-solid.svg'
 import avt from '../assets/avtDemo.jpg'
 import Popup from './Popup'
+import settingSvg from '../assets/gear-solid.svg'
 
 function Header() {
     const userLoggedIn = JSON.parse(localStorage.getItem("userlogin"));
@@ -44,7 +45,7 @@ function Header() {
                     </div>
                     <a href='#'>  <img className='icon' src={bellSvg} /></a>
                     <a href='#'> <img className='avt' src={avt} /></a>
-                    <button onClick={Logout} className=' btn btn_logout item'> Log out</button>
+                    <button onClick={Logout} className=' btn btn_logout item'>  Log out</button>
                 </div>
             </div>
             <div><p> Hãy học điều gì đó mới mẻ trong hôm nay nào!</p> </div>
