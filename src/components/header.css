@@ -1,0 +1,20 @@
+.topHeader{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+
+}
+.rightHeader{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    float: left;
+
+}
+.icon{
+    width: 20px;
+}
+.avt{
+    width: 50px;
+    border-radius: 50px;
+}
