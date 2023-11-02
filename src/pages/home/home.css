@@ -1,6 +1,6 @@
 .container-fluid {
   background-color: rgb(238, 238, 238);
-  margin: 20px;
+  margin: 10px;
 }
 .sidebar {
   width: 20%;
@@ -20,10 +20,8 @@
   background-color: white;
   border-radius: 10px;
   margin: 20px;
-  padding: 15px;
-}
-.content{
-  margin-top: 70px;
+  
+  padding:20px
 }
 .char {
   margin-top: 20px;
@@ -33,7 +31,7 @@
   margin-bottom: 40px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-.abc {
+.abcc {
   display: flex;
   flex-direction: row;
 }
@@ -42,13 +40,14 @@
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 30%;
   font-size: 45px;
   background-color: rgb(121, 169, 205);
 }
 .chardemo {
   margin-left: 60px;
   width: 47%;
+  height: 270px;
   margin-right: 15px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -71,7 +70,7 @@
 .a a img {
   height: 22px;
 }
- iframe {
+iframe {
   border: none;
   border-radius: 15px;
 

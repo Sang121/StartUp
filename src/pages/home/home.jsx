@@ -28,7 +28,7 @@ function Home() {
                             <div className='char'>
 
                                 <p >Biểu đồ thể hiện thời gian bạn học ở các ngày trong tuần</p>
-                                <div className='abc'>
+                                <div className='abcc'>
                                     <div className='learn'> 85%</div>
 
                                     <img className='chardemo' src={charDemo} />
@@ -113,9 +113,7 @@ function Home() {
                         </div>
 
                     </div>
-                    <div className='righbar'>
-                        bgfaksjdfghasjiklgh
-                    </div>
+                   
                 </div>
                 <Footer />
             </div>

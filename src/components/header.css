@@ -1,12 +1,13 @@
 .topHeader {
   display: flex;
+
   flex-direction: row;
-  flex-flow: wrap;
 }
 .rightHeader {
   display: flex;
   flex-direction: row;
-  margin-left: 150px;
+  margin-top: 10px;
+  margin-left: 20%;
 }
 .icon {
   width: 20px;
