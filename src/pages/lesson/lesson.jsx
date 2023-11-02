@@ -86,10 +86,10 @@ function Lesson() {
                 <p className='nameAuthor'>Ninh Thi Quỳnh Như</p>
               </div>
               <div className='student'>
-                <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
+                <i class="fa-solid fa-person itemm"> </i><p>550 Student</p>
 
                 <i class="fa-solid fa-book itemm"> </i><p>7 module</p>
-                <i class="fa-regular fa-clock itemm"></i><p>3h31p</p>
+                <i class="fa-regular fa-clock itemm"></i><p>4h00p</p>
 
               </div>
 
@@ -102,10 +102,10 @@ function Lesson() {
                 <p className='nameAuthor'>Dương Thị Ngân</p>
               </div>
               <div className='student'>
-                <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
+                <i class="fa-solid fa-person itemm"> </i><p>650 Student</p>
 
-                <i class="fa-solid fa-book itemm"> </i><p>7 module</p>
-                <i class="fa-regular fa-clock itemm"></i><p>3h31p</p>
+                <i class="fa-solid fa-book itemm"> </i><p> 9 module</p>
+                <i class="fa-regular fa-clock itemm"></i><p>4h30p</p>
 
               </div>
 
@@ -118,10 +118,10 @@ function Lesson() {
                 <p className='nameAuthor'>Ninh Thi Quỳnh Như</p>
               </div>
               <div className='student'>
-                <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
+                <i class="fa-solid fa-person itemm"> </i><p>360 Student</p>
 
-                <i class="fa-solid fa-book itemm"> </i><p>7 module</p>
-                <i class="fa-regular fa-clock itemm"></i><p>3h31p</p>
+                <i class="fa-solid fa-book itemm"> </i><p>5 module</p>
+                <i class="fa-regular fa-clock itemm"></i><p>2h40p</p>
 
               </div>
 
@@ -134,10 +134,10 @@ function Lesson() {
                 <p className='nameAuthor'>Trương Thị Thúy Hiền</p>
               </div>
               <div className='student'>
-                <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
+                <i class="fa-solid fa-person itemm"> </i><p>260 Student</p>
 
-                <i class="fa-solid fa-book itemm"> </i><p>7 module</p>
-                <i class="fa-regular fa-clock itemm"></i><p>3h31p</p>
+                <i class="fa-solid fa-book itemm"> </i><p>8 module</p>
+                <i class="fa-regular fa-clock itemm"></i><p>4h20p</p>
 
               </div>
 
@@ -150,10 +150,10 @@ function Lesson() {
                 <p className='nameAuthor'>Dương Thị Ngân</p>
               </div>
               <div className='student'>
-                <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
+                <i class="fa-solid fa-person itemm"> </i><p>350 Student</p>
 
                 <i class="fa-solid fa-book itemm"> </i><p>7 module</p>
-                <i class="fa-regular fa-clock itemm"></i><p>3h31p</p>
+                <i class="fa-regular fa-clock itemm"></i><p>3h00p</p>
 
               </div>
 
@@ -166,30 +166,15 @@ function Lesson() {
                 <p className='nameAuthor'>Phan Ngọc Minh</p>
               </div>
               <div className='student'>
-                <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
+                <i class="fa-solid fa-person itemm"> </i><p>770 Student</p>
 
-                <i class="fa-solid fa-book itemm"> </i><p>7 module</p>
-                <i class="fa-regular fa-clock itemm"></i><p>3h31p</p>
-
-              </div>
-
-            </div>
-            <div className='swim itemOfLessson'>
-              <h3> Kĩ năng tán gái</h3><hr />
-              <img className='thumbnail' src={HoHap} />
-              <div className='author'>
-                <img className=' avtAuthor' src={Avt} />
-                <p className='nameAuthor'>Nguyễn hàm Sáng</p>
-              </div>
-              <div className='student'>
-                <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
-
-                <i class="fa-solid fa-book itemm"> </i><p>7 module</p>
-                <i class="fa-regular fa-clock itemm"></i><p>3h31p</p>
+                <i class="fa-solid fa-book itemm"> </i><p>3 module</p>
+                <i class="fa-regular fa-clock itemm"></i><p>1h31p</p>
 
               </div>
 
             </div>
+
 
 
           </div>
