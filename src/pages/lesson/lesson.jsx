@@ -50,7 +50,7 @@ function Lesson() {
               <img className='thumbnail' src={Swim} />
               <div className='author'>
                 <img className=' avtAuthor' src={Avt} />
-                <p className='nameAuthor'>Trương Thị Hiền</p>
+                <p className='nameAuthor'>Trương Thị Thúy Hiền</p>
               </div>
               <div className='student'>
                 <i class="fa-solid fa-person itemm"> </i><p>380 Student</p>
@@ -67,7 +67,7 @@ function Lesson() {
               <img className='thumbnail' src={Life} />
               <div className='author'>
                 <img className=' avtAuthor' src={Avt} />
-                <p className='nameAuthor'>Ninh Thi Như Quỳnh</p>
+                <p className='nameAuthor'>Phan Ngọc Minh</p>
               </div>
               <div className='student'>
                 <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
@@ -83,7 +83,7 @@ function Lesson() {
               <img className='thumbnail' src={Lan} />
               <div className='author'>
                 <img className=' avtAuthor' src={Avt} />
-                <p className='nameAuthor'>Ninh Thi Như Quỳnh</p>
+                <p className='nameAuthor'>Ninh Thi Quỳnh Như</p>
               </div>
               <div className='student'>
                 <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
@@ -99,7 +99,7 @@ function Lesson() {
               <img className='thumbnail' src={Thoathiem} />
               <div className='author'>
                 <img className=' avtAuthor' src={Avt} />
-                <p className='nameAuthor'>Ninh Thi Như Quỳnh</p>
+                <p className='nameAuthor'>Dương Thị Ngân</p>
               </div>
               <div className='student'>
                 <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
@@ -115,7 +115,7 @@ function Lesson() {
               <img className='thumbnail' src={Run} />
               <div className='author'>
                 <img className=' avtAuthor' src={Avt} />
-                <p className='nameAuthor'>Ninh Thi Như Quỳnh</p>
+                <p className='nameAuthor'>Ninh Thi Quỳnh Như</p>
               </div>
               <div className='student'>
                 <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
@@ -131,7 +131,7 @@ function Lesson() {
               <img className='thumbnail' src={Traffic} />
               <div className='author'>
                 <img className=' avtAuthor' src={Avt} />
-                <p className='nameAuthor'>Ninh Thi Như Quỳnh</p>
+                <p className='nameAuthor'>Trương Thị Thúy Hiền</p>
               </div>
               <div className='student'>
                 <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
@@ -147,7 +147,7 @@ function Lesson() {
               <img className='thumbnail' src={Socuu} />
               <div className='author'>
                 <img className=' avtAuthor' src={Avt} />
-                <p className='nameAuthor'>Ninh Thi Như Quỳnh</p>
+                <p className='nameAuthor'>Dương Thị Ngân</p>
               </div>
               <div className='student'>
                 <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
@@ -163,7 +163,23 @@ function Lesson() {
               <img className='thumbnail' src={HoHap} />
               <div className='author'>
                 <img className=' avtAuthor' src={Avt} />
-                <p className='nameAuthor'>Ninh Thi Như Quỳnh</p>
+                <p className='nameAuthor'>Phan Ngọc Minh</p>
+              </div>
+              <div className='student'>
+                <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
+
+                <i class="fa-solid fa-book itemm"> </i><p>7 module</p>
+                <i class="fa-regular fa-clock itemm"></i><p>3h31p</p>
+
+              </div>
+
+            </div>
+            <div className='swim itemOfLessson'>
+              <h3> Kĩ năng tán gái</h3><hr />
+              <img className='thumbnail' src={HoHap} />
+              <div className='author'>
+                <img className=' avtAuthor' src={Avt} />
+                <p className='nameAuthor'>Nguyễn hàm Sáng</p>
               </div>
               <div className='student'>
                 <i class="fa-solid fa-person itemm"> </i><p>450 Student</p>
