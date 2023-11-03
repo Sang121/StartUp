@@ -14,13 +14,15 @@
 }
 .btn_logout {
   width: 150px;
-  background-color: rgb(233, 220, 220);
+  background-color: rgb(240, 239, 239);
   border-radius: 15px;
   margin-left:10px ;
   border: none;
 }
 .btn_logout:hover{
   transform: scale(1.1);
+  background-color: rgb(209, 209, 209);
+
 }
 .avt {
   width: 50px;
