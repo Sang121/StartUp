@@ -10,6 +10,7 @@ import CuuHoa1 from '../../assets/cuuhoa1.jpg'
 import CuuHoa2 from '../../assets/cuuhoa2.jpg'
 import CuuHoa3 from '../../assets/cuuhoa3.jpg'
 import CuuHoa4 from '../../assets/cuuhoa4.jpg'
+import Footer from '../../components/footer';
 const findItemIndex = (cart, id) => {
     return cart.findIndex((item) => item.id === id);
 }
@@ -167,7 +168,7 @@ function ProductDetails() {
                     Khi mở van (tuỳ từng loại bình có cấu tạo van khoá khác nhau thì cách mở khác nhau), bột khô trong bình được phun ra ngoài nhờ lực đẩy của khí nén (nén trực tiếp với bột hoặc trong chai riêng) qua hệ thống ống dẫn. Khi phun vào đám cháy bột có tác dụng kìm hãm phản ứng cháy và cách ly chất cháy với ôxy không khí, mặt khác ngăn cản hơi khí cháy tiến vào vùng cháy dẫn đến đám cháy bị dập tắt.
                 </p>
             </div>
-
+<Footer/>
         </div>
     )
 }
