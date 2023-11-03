@@ -7,10 +7,20 @@
   display: flex;
   flex-direction: row;
   margin-top: 10px;
-  margin-left: 20%;
+  margin-left: 300px;
 }
 .icon {
   width: 20px;
+}
+.btn_logout {
+  width: 150px;
+  background-color: rgb(233, 220, 220);
+  border-radius: 15px;
+  margin-left:10px ;
+  border: none;
+}
+.btn_logout:hover{
+  transform: scale(1.1);
 }
 .avt {
   width: 50px;

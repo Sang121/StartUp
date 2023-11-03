@@ -1,20 +1,12 @@
 import React from 'react'
-import logo from '../assets/logo.png'
-import homeSvg from '../assets/house-solid.svg'
-import LessonSvg from '../assets/book-solid.svg'
-import settingSvg from '../assets/gear-solid.svg'
-import mentorSvg from '../assets/people-group-solid.svg'
+import logo from '../../assets/logo.png'
 
-import './sidebar.css'
+
+import '../../components/sidebar.css'
 function Sidebar() {
   return (
     <div className="container">
-      <div className="logo">
-        <a href="/">
-          {" "}
-          <img src={logo} className="logo" />
-        </a>
-      </div>
+      
       <ul className='list' >
         <a href='/'>
           <li>

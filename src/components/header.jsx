@@ -45,7 +45,7 @@ function Header() {
                     </div>
                     <a href='#'>  <img className='icon' src={bellSvg} /></a>
                     <a href='#'> <img className='avt' src={avt} /></a>
-                    <button onClick={Logout} className=' btn btn_logout item'> <a>  Log out</a> </button>
+                    <button onClick={Logout} className='  btn_logout '> Log out </button>
                 </div>
             </div>
             <div><p> Hãy học điều gì đó mới mẻ trong hôm nay nào!</p> </div>
