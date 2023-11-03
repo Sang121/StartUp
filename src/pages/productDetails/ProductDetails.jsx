@@ -110,7 +110,7 @@ function ProductDetails() {
 
                     <div className='price-details d-flex column'>
                         <h4> Price:</h4>
-                        <h4 className='n-price  '>200.000k </h4>
+                        <h4 className='n-price  '>200.000đ </h4>
 
 
                     </div>

@@ -28,7 +28,7 @@ function Products() {
                     <div className='singleItem'>
                         <a href='./productDetail'> <img src={CuuHoa} className='thumbnailProduct' /></a>
                         <h3 className='nameProduct'>Bình cứu hỏa</h3>
-                        <p className='price'>200.000k</p>
+                        <p className='price'>200.000đ</p>
                         <div >
                             <button onClick={handleAddToCart} class=' cus-btn add-btn'><span class='add'>Add to Cart</span></button>
 
@@ -37,7 +37,7 @@ function Products() {
                     <div className='singleItem'>
                         <a href='./productDetail'> <img src={Thang} className='thumbnailProduct' /></a>
                         <h3 className='nameProduct'>Thang dây</h3>
-                        <p className='price'>432.000-657.000k</p>
+                        <p className='price'>432.000-657.00đ</p>
                         <div >
                             <button onClick={handleAddToCart} class=' cus-btn add-btn'><span class='add'>Add to Cart</span></button>
 
@@ -46,7 +46,7 @@ function Products() {
                     <div className='singleItem'>
                         <a href='./productDetail'> <img src={Matna} className='thumbnailProduct' /></a>
                         <h3 className='nameProduct'>Mặt nạ</h3>
-                        <p className='price'>60.000k</p>
+                        <p className='price'>60.000đ</p>
                         <div >
                             <button onClick={handleAddToCart} class=' cus-btn add-btn'><span class='add'>Add to Cart</span></button>
 
@@ -55,7 +55,7 @@ function Products() {
                     <div className='singleItem'>
                         <a href='./productDetail'> <img src={Baoho} className='thumbnailProduct' /></a>
                         <h3 className='nameProduct'>Đồ bảo hộ</h3>
-                        <p className='price'>219.000k</p>
+                        <p className='price'>219.000đ</p>
                         <div >
                             <button onClick={handleAddToCart} class=' cus-btn add-btn'><span class='add'>Add to Cart</span></button>
 
