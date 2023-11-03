@@ -105,7 +105,7 @@ function ProductDetails() {
 
                 <div className=" details col-12  col-md-6 ">
 
-                    <h1 className="red">{product.title}</h1>
+                    <h1 className="red">Bình cứu hỏa</h1>
 
                     <div className='price-details d-flex column'>
                         <h4> Price:</h4>
