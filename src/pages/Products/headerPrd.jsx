@@ -85,16 +85,16 @@ function HeaderPrd() {
       </div>
       <div className="nav col-12 col-sm-10 row">
         <div className=' topnav d-flex justify-content-around'>
-         
-            <a href='/' class="home-btn  btn-header "><i class="fa fa-home" > </i> Home</a>
-        
+
+          <a href='/' class="home-btn  btn-header "><i class="fa fa-home" > </i> Home</a>
+
           <form className="d-flex search" onSubmit={handleSubmit}>
             <div class="  search-group  abc bg-light rounded rounded-pill ">
               <div class="input-group  ">
                 <input type="search"
                   value={searchTerm}
                   onChange={event => setSearchTerm(event.target.value)} placeholder="Nhập sản phẩm bạn cần tìm"
-                  aria-describedby="button-addon1" class="seach-btn rounded rounded-pill border-0 bg-light" />
+                  class="seach-btn rounded rounded-pill border-0 bg-light" />
                 <div class="input-group-append">
                   <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fa fa-search"></i></button>
                 </div>
