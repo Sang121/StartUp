@@ -36,7 +36,7 @@ function Header() {
                         <div class="input-group  ">
                             <input type="search"
 
-                                placeholder="Nhập thứ bạn cần tìm"
+                                placeholder="Search..."
                                 aria-describedby="button-addon1" class="seach-btn  rounded-pill border-0 bg-light" />
                             <div class="input-group-append">
                                 <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fa fa-search"></i></button>
