@@ -95,7 +95,7 @@ function Lesson() {
 
             </div>
             <div className='swim itemOfLessson'>
-              <h3> Kĩ thuật thoát hiểm</h3><hr />
+              <h3> Kĩ năng thoát hiểm</h3><hr />
               <img className='thumbnail' src={Thoathiem} />
               <div className='author'>
                 <img className=' avtAuthor' src={Avt} />
