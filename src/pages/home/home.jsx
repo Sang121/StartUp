@@ -6,10 +6,10 @@ import Footer from '../../components/footer'
 import charDemo from '../../assets/charDemo.png'
 function Home() {
     const isLoggedIn = JSON.parse(localStorage.getItem("isLoggedIn"))
-    if (isLoggedIn == null) {
-        window.location.href = './login';
-    }
-    else
+    // if (isLoggedIn == null) {
+    //     window.location.href = './login';
+    // }
+    // else
         return (
 
             <div className='container-fluid'>
