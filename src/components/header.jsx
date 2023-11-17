@@ -90,7 +90,7 @@ function Header() {
               <div class="input-group  ">
                 <input type="search"
                   value={searchTerm}
-                  onChange={event => setSearchTerm(event.target.value)} placeholder="Nhập sản phẩm bạn cần tìm"
+                  onChange={event => setSearchTerm(event.target.value)} placeholder=""
                   class="seach-btn rounded rounded-pill border-0 bg-light" />
                 <div class="input-group-append">
                   <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fa fa-search"></i></button>

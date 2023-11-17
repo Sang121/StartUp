@@ -1,6 +1,6 @@
 .navs {
   /* background-color:#45c3ed; */
-  background-color: rgb(253, 253, 253);
+  background-color:rgb(255, 212, 155);
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -63,6 +63,8 @@ input:focus {
 }
 .titles {
   display: none;
+
+  margin-left: 200px;
 }
 .titles .item {
   color: black ;
