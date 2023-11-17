@@ -9,12 +9,7 @@ import './sidebar.css'
 function Sidebar() {
   return (
     <div className="container">
-      <div className="logo">
-        <a href="/">
-          {" "}
-          <img src={logo} className="logo" />
-        </a>
-      </div>
+      
       <ul className='list' >
         <a href='/'>
           <li>
@@ -34,7 +29,12 @@ function Sidebar() {
 
           </li>
         </a><hr />
+        <a href='/yourlesson'>
+        <li>
+          <i class="fa-brands fa-youtube icon "></i>   Khóa học của bạn
 
+        </li>
+      </a><hr />
         <a href='/setting'>
           <li>
             <i class="fa-solid fa-gear icon"></i> Cài đặt

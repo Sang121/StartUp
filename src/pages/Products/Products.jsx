@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import HeaderPrd from './headerPrd'
 import Footer from '../../components/footer'
-import SideBar from './sideBar'
+import SideBar from '../../components/sidebar'
 import './products.css'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
@@ -10,7 +9,9 @@ import Thang from '../../assets/thang.jpg'
 import Matna from '../../assets/matna.jpg'
 import Baoho from '../../assets/baoho.jpg'
 import Popup from '../../components/Popup'
+import Header from '../../components/Header'
 
+import NavBar from '../../components/navBar'
 function Products() {
     const [addSuccess, setAddSuccess] = useState(false);
     const handleAddToCart = () => {
@@ -18,9 +19,10 @@ function Products() {
 
     }
     return (
-        <div>
-            <HeaderPrd />
-            <div className='container-fluid products'>
+        <div className='container-fluid'>
+            <Header /><bbr/>
+
+            <div className=' products'>
                 <div className='sidebar'>
                     <SideBar />
                 </div>

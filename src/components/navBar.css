@@ -1,0 +1,36 @@
+.topHeader {
+  display: flex;
+
+  flex-direction: row;
+}
+.rightHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 620px;
+}
+.icon {
+  width: 20px;
+}
+.btn_logout {
+  width: 150px;
+  background-color: rgb(240, 239, 239);
+  border-radius: 15px;
+  margin-left:10px ;
+  border: none;
+}
+.btn_logout:hover{
+  transform: scale(1.1);
+  background-color: rgb(209, 209, 209);
+
+}
+.avt {
+  width: 50px;
+  border-radius: 50px;
+}
+.rightHeader .item {
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}

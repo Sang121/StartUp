@@ -1,16 +1,17 @@
+.products {
+  background-color: rgb(238, 238, 238);
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
 .mainContent {
   width: 100%;
   display: grid;
   grid-template-columns: auto auto auto auto;
-
-  padding: 10px;
   margin-left: 10px;
   background-color: rgb(238, 238, 238);
 }
-.products {
-  display: flex;
-  flex-direction: row;
-}
+
 .nameProduct {
   color: black;
   text-decoration: none;
@@ -20,7 +21,8 @@
   height: 300px;
 }
 .singleItem {
-  margin: 10px;
+  margin: 5px;
+  margin-top: 10px;
   border-radius: 15px;
   background-color: #fff;
 }

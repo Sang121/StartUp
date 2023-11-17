@@ -1,45 +1,18 @@
 import React from 'react'
-import Sidebar from '../../components/sidebar'
-import './home.css'
-import Navbar from '../../components/navBar'
-import Footer from '../../components/footer'
-import charDemo from '../../assets/charDemo.png'
+import './LessonDetail.css'
 import Header from '../../components/Header'
-
-function Home() {
-    const isLoggedIn = JSON.parse(localStorage.getItem("isLoggedIn"))
-    // if (isLoggedIn == null) {
-    //     window.location.href = './login';
-    // }
-    // else
-        return (
-
-            <div className='container-fluid'>
-            <Header/>
-                <div className='main-content'>
-
-                    <div className='sidebar'>
-                        <Sidebar />
-
-                    </div>
-                    <div className='main'>
-                        <div>
-                            <Navbar />
-                        </div><hr />
-                        <div className='content'>
-                            <h2  > Thống kê thời gian học tập</h2>
-                            <div className='char'>
-
-                                <p >Biểu đồ thể hiện thời gian bạn học ở các ngày trong tuần</p>
-                                <div className='abcc'>
-                                    <div className='learn'> 85%</div>
-
-                                    <img className='chardemo' src={charDemo} />
-                                </div>
-                            </div>
-                            <h2> Khóa học của tuần</h2>
-                            <div className='learning'>
-                                Video bạn đang học
+import Footer from '../../components/footer'
+import Avt from '../../assets/avtDemo.jpg'
+import Fire from '../../assets/FireThumbnail.jpg'
+function LessonDetail() {
+    return (
+        <div className='container-fluid'>
+            <Header />
+            <div className='mainContent'>
+                <div className='video'>
+                
+                <div className='learning'>
+                                <h2> Kĩ năng chữa cháy</h2>
                                 <div className='' >
                                     <a href="https://clipchamp.com/watch/vCxNJuQLAJe?utm_source=embed&utm_medium=embed&utm_campaign=watch">
                                         <img loading="lazy" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
@@ -47,8 +20,9 @@ function Home() {
                                     <iframe allow="autoplay;" allowfullscreen src="https://clipchamp.com/watch/vCxNJuQLAJe/embed" width="640" height="360"></iframe>
                                 </div>
                             </div>
+                           
+                            <div className='mentor'>
                             <h2>Hướng dẫn của giảng viên </h2>
-                            <div>
                                 <h4>Kỹ năng 1: Giữ bình tĩnh </h4>
                                 <p> Khi phát hiện đang có sự có hỏa hoạn hãy bình tĩnh xem xét nguồn cháy đang ở khu vực nào, tìm cách dập và lối thoát an toàn nhất, việc mất bình tĩnh và hoản loạn sẽ dễ dẫn đến việc dập lửa sai cách hoặc chạy chen lấn giẫm lên nhau, bị ngạt khói...
 
@@ -112,16 +86,96 @@ function Home() {
                                     Tuyệt đốt không nhảy xuống hồ bơi, hồ nước vì có thể nhiệt độ của hồ bơi đã bị sức nóng của đám cháy làm tăng cao trước đó mà bạn không biết, nếu nhảy xuống nước nóng sẽ làm phỏng cơ thể rất nguy hiểm.</p>
 
                             </div>
-
-                        </div>
-
-                    </div>
-                   
                 </div>
-                <Footer />
-            </div>
 
-        )
+
+                <div className='listVideo'>
+                <div className='swim itemOfLessson'>
+              <h4> Xử lý khi phát hiện đám cháy</h4><hr />
+              <a href='./LessonDetail'>  <img className='thumbnail' src={Fire} /></a>
+              <div className='author'>
+                <img className=' avtAuthor' src={Avt} />
+                <p className='nameAuthor'>Nguyễn Hàm Sáng </p>
+              </div>
+              <div className='student'>
+                <i class="fa-solid fa-person itemmm"> </i><p>500 Student</p>
+
+                
+                <i class="fa-regular fa-clock itemmm"></i><p>2h30p</p>
+
+              </div>
+
+            </div>
+            <div className='swim itemOfLessson'>
+              <h4> Cách sử dụng bình chữa cháy</h4><hr />
+              <a href='./LessonDetail'>  <img className='thumbnail' src={Fire} /></a>
+              <div className='author'>
+                <img className=' avtAuthor' src={Avt} />
+                <p className='nameAuthor'>Nguyễn Hàm Sáng </p>
+              </div>
+              <div className='student'>
+                <i class="fa-solid fa-person itemmm"> </i><p>500 Student</p>
+
+              
+                <i class="fa-regular fa-clock itemmm"></i><p>2h30p</p>
+
+              </div>
+
+            </div>
+            <div className='swim itemOfLessson'>
+              <h4> kĩ năng dập lửa</h4><hr />
+              <a href='./LessonDetail'>  <img className='thumbnail' src={Fire} /></a>
+              <div className='author'>
+                <img className=' avtAuthor' src={Avt} />
+                <p className='nameAuthor'>Nguyễn Hàm Sáng </p>
+              </div>
+              <div className='student'>
+                <i class="fa-solid fa-person itemmm"> </i><p>500 Student</p>
+
+                
+                <i class="fa-regular fa-clock itemmm"></i><p>2h30p</p>
+
+              </div>
+
+            </div>
+            <div className='swim itemOfLessson'>
+              <h4> Kĩ năng thoát hiểm</h4><hr />
+              <a href='./LessonDetail'>  <img className='thumbnail' src={Fire} /></a>
+              <div className='author'>
+                <img className=' avtAuthor' src={Avt} />
+                <p className='nameAuthor'>Nguyễn Hàm Sáng </p>
+              </div>
+              <div className='student'>
+                <i class="fa-solid fa-person itemmm"> </i><p>500 Student</p>
+
+             
+                <i class="fa-regular fa-clock itemmm"></i><p>2h30p</p>
+
+              </div>
+
+            </div>
+            <div className='swim itemOfLessson'>
+              <h3> Kĩ năng chữa cháy</h3><hr />
+              <a href='./LessonDetail'>  <img className='thumbnail' src={Fire} /></a>
+              <div className='author'>
+                <img className=' avtAuthor' src={Avt} />
+                <p className='nameAuthor'>Nguyễn Hàm Sáng </p>
+              </div>
+              <div className='student'>
+                <i class="fa-solid fa-person itemmm"> </i><p>500 Student</p>
+
+                
+                <i class="fa-regular fa-clock itemmm"></i><p>2h30p</p>
+
+              </div>
+
+            </div>
+                
+                </div>
+            </div>
+            <Footer />
+        </div>
+    )
 }
 
-export default Home
+export default LessonDetail

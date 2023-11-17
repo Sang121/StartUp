@@ -1,7 +1,7 @@
 import React from 'react'
 import './lesson.css'
 import Sidebar from '../../components/sidebar'
-import Header from '../../components/header'
+import Navbar from '../../components/navBar'
 import Footer from '../../components/footer'
 import Avt from '../../assets/avtDemo.jpg'
 import Fire from '../../assets/FireThumbnail.jpg'
@@ -12,19 +12,20 @@ import Run from '../../assets/runThumbnail.jpg'
 import Thoathiem from '../../assets/thoathiemThumbnail.jpg'
 import Traffic from '../../assets/trafficThumbnail.jpg'
 import Socuu from '../../assets/socuuThumbnail.jpg'
-
+import Header from '../../components/Header'
 import HoHap from '../../assets/hohapThumbnail.png'
 
 function Lesson() {
   return (
     <div className='container-fluid'>
+      <Header />
       <div className='lesson'>
         <div className='sidebar'>
           <Sidebar />
         </div>
         <div className='main mainn'>
           <div className="header">
-            <Header /></div><hr />
+            <Navbar /></div><hr />
           <h2> Khóa học các kĩ năng</h2>
           <div className='lessons'>
 

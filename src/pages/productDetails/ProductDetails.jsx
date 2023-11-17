@@ -4,8 +4,8 @@ import { useParams } from 'react-router-dom';
 import { BeatLoader } from 'react-spinners';
 import './productDetail.css';
 import Popup from '../../components/Popup'
-import CuuHoa from '../../assets/cuuhoa.jpg'
-import Header from '../../pages/Products/headerPrd'
+import CuuHoa from '../../assets/cuuhoa.jpg'    
+import Header from '../../components/Header'
 import CuuHoa1 from '../../assets/cuuhoa1.jpg'
 import CuuHoa2 from '../../assets/cuuhoa2.jpg'
 import CuuHoa3 from '../../assets/cuuhoa3.jpg'
@@ -81,7 +81,7 @@ function ProductDetails() {
     }
     return (
         <div>
-            <Header />
+            <Header/><hr/>
             <div className="details-container row">
 
                 <div className=" img-details col-12 col-md-6  ">
