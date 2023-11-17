@@ -1,11 +1,10 @@
 import React from 'react'
 import Sidebar from '../../components/sidebar'
 import './yourLesson.css'
-import Header from '../../components/Header'
 import Navbar from '../../components/navBar'
 import Footer from '../../components/footer'
+import Header from '../../components/Header'
 import charDemo from '../../assets/charDemo.png'
-
 import Avt from '../../assets/avtDemo.jpg'
 import Fire from '../../assets/FireThumbnail.jpg'
 import Swim from '../../assets/swimThumbnail.png'
