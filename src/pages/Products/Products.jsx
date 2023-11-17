@@ -9,7 +9,7 @@ import Thang from '../../assets/thang.jpg'
 import Matna from '../../assets/matna.jpg'
 import Baoho from '../../assets/baoho.jpg'
 import Popup from '../../components/Popup'
-import Header from '../../components/Header'
+import Header from '../../components/header'
 
 import NavBar from '../../components/navBar'
 function Products() {

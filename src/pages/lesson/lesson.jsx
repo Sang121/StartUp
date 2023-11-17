@@ -12,7 +12,7 @@ import Run from '../../assets/runThumbnail.jpg'
 import Thoathiem from '../../assets/thoathiemThumbnail.jpg'
 import Traffic from '../../assets/trafficThumbnail.jpg'
 import Socuu from '../../assets/socuuThumbnail.jpg'
-import Header from '../../components/Header'
+import Header from '../../components/header'
 import HoHap from '../../assets/hohapThumbnail.png'
 
 function Lesson() {

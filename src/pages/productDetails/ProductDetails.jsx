@@ -5,7 +5,7 @@ import { BeatLoader } from 'react-spinners';
 import './productDetail.css';
 import Popup from '../../components/Popup'
 import CuuHoa from '../../assets/cuuhoa.jpg'    
-import Header from '../../components/Header'
+import Header from '../../components/header'
 import CuuHoa1 from '../../assets/cuuhoa1.jpg'
 import CuuHoa2 from '../../assets/cuuhoa2.jpg'
 import CuuHoa3 from '../../assets/cuuhoa3.jpg'

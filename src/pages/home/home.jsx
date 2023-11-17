@@ -4,7 +4,7 @@ import './home.css'
 import Navbar from '../../components/navBar'
 import Footer from '../../components/footer'
 import charDemo from '../../assets/charDemo.png'
-import Header from '../../components/Header'
+import Header from '../../components/header'
 
 function Home() {
     const isLoggedIn = JSON.parse(localStorage.getItem("isLoggedIn"))

@@ -1,6 +1,6 @@
 import React from 'react'
 import './LessonDetail.css'
-import Header from '../../components/Header'
+import Header from '../../components/header'
 import Footer from '../../components/footer'
 import Avt from '../../assets/avtDemo.jpg'
 import Fire from '../../assets/FireThumbnail.jpg'
