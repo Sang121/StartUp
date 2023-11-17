@@ -4,7 +4,7 @@ import './home.css'
 import Navbar from '../../components/navBar'
 import Footer from '../../components/footer'
 import charDemo from '../../assets/charDemo.png'
-import Header from '../../components/Header'
+// import Header from '../../components/Header'
 
 function Home() {
     const isLoggedIn = JSON.parse(localStorage.getItem("isLoggedIn"))
@@ -15,7 +15,7 @@ function Home() {
         return (
 
             <div className='container-fluid'>
-            <Header/>
+         
                 <div className='main-content'>
 
                     <div className='sidebar'>
