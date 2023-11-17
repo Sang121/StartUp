@@ -3,7 +3,7 @@ import Sidebar from '../../components/sidebar'
 import './yourLesson.css'
 import Navbar from '../../components/navBar'
 import Footer from '../../components/footer'
-// import Header from '../../components/Header'
+import Header from '../../components/Header'
 import charDemo from '../../assets/charDemo.png'
 import Avt from '../../assets/avtDemo.jpg'
 import Fire from '../../assets/FireThumbnail.jpg'
@@ -18,7 +18,7 @@ function YourLesson() {
     return (
 
         <div className='container-fluid'>
-           
+            <Header />
             <div className='main-content'>
 
                 <div className='sidebar'>
