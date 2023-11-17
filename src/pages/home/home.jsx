@@ -26,7 +26,13 @@ function Home() {
                     <div>
                         <Navbar />
                     </div><hr />
+
+
+
                     Tính năng đang phát triển
+
+
+                    
                 </div>
 
             </div>
